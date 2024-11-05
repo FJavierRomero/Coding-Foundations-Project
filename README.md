@@ -13,6 +13,9 @@ Este es el proyecto final del curso **Coding Foundations**, donde hay que replic
 
 ![codepenweb](https://github.com/user-attachments/assets/b1e66753-01aa-4046-b81d-5b640ae85666)
 
+## Carpeta de Projecto
+Dentro de la carpeta **HTML** se encuentra el archivo **index.html** y las carpetas **Styles** con los archivos CSS e **images** con las imagenes usadas.
+
 ## Criterios de evaluacion
 
 * El código se ejecuta sin errores

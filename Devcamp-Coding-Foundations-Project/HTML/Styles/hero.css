@@ -1,0 +1,82 @@
+/* hero styles */
+.hero-section {
+    padding: 50px 0px 100px 50px;
+    height: 300px;
+    background-position: center;
+}
+
+.hero-section > .home-section  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hero-section > .home-section > .text-content h1 {
+    width: 550px;
+    color: 	#b9babd;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+.hero-section > .home-section > .text-content strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.hero-section > .home-section > .text-content h2 {
+    width: 470px;
+    font-weight: 400;
+    color: 	#b9babd;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+/* signup learn more buttons */
+.sign-learn-button > .sign-up button {
+    background-color: #4bce79;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: none;
+    text-align: center;
+    font-size: 1.5em;
+    transition: 0.5s;
+}
+
+.sign-learn-button > .sign-up button:hover {
+    background-color:#dedede;
+    color: black;
+}
+
+.sign-learn-button > .learn-more button {
+    background-color: black;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 1.5em;
+    transition: 0.5s;   
+}
+
+.sign-learn-button > .learn-more button:hover {
+    background-color:#dedede;
+    color: black;
+}
+/* web image styles */
+.hero-section > .home-section > .web-image p {
+    margin: 0px;
+    font-weight: 700;
+    color: white;
+    padding-left: 50px;
+    line-height: 0;
+}
+
+.hero-section > .home-section > .web-image span {
+   color: #70d5e2;
+}
+
+.hero-section > .home-section > .web-image img {
+    width: 100%;
+    height: 400px;
+}

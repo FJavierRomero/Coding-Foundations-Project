@@ -1,0 +1,12 @@
+/* body style */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    background-color: #2f3239;
+    box-shadow: inset -400px -200px 500px 20px rgba(0, 0, 0, 0.5); /* shadow effect */
+}
+
+.spacer10 {  /* 10px spacer */
+	height: 10px;
+	width: 100%;
+}

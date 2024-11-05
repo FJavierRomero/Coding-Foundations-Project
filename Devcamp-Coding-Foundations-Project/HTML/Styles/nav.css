@@ -1,0 +1,123 @@
+/* top nav bar styles */
+.navigation-wrapper {
+    height: 65px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    
+}
+/* left wrapper */
+.navigation-wrapper > .left-wrapper > .logo-wrapper img{
+    width: 180px;
+    height: 30px;
+    filter: invert(100%);
+}
+/* center wrapper */
+.navigation-wrapper > .center-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    
+}
+
+.navigation-wrapper > .center-wrapper > .links-wrapper-header p{
+    color: #efe187;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    line-height: 0px;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    width: 400px;
+}
+
+.links-wrapper > .nav-links a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-links a:hover{
+    color: #efe187;
+    
+}
+
+.spark-menu > .spark-menu-button {
+    background-color: black;
+    border: none;
+    color: #b9babd;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    padding-left: 20px;
+    transition: 0.5s;
+    
+}
+
+.spark-menu > .spark-menu-button:hover{
+    color: #efe187;
+}
+/* right wrapper */
+.right-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.right-wrapper > .nav-button button {
+    background-color: #36383f;
+    color: white;
+    padding: 18px 24px;
+    margin: 0 10px 0 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.right-wrapper > .nav-button button:hover {
+    background-color:#dedede;
+    color: #36383f;
+
+}
+
+.right-wrapper > .nav-button > .searchbar {
+    background-color: black;
+    
+}
+
+.right-wrapper > .nav-button > .searchbar:hover {
+    background-color: black;
+    
+}
+
+
+.right-wrapper > .nav-button > .searchbar i{
+    font-size: 30px;
+    color: #7a7d8a;
+    transition: 0.5s;
+}
+
+.right-wrapper > .nav-button > .searchbar i:hover {
+    color: #dedede;
+}
+
+.right-wrapper > .nav-button > .create-button i{
+    color: #4bce79;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+}
